@@ -12,9 +12,9 @@ module.exports = {
     },
     colors: {
       black: colors.black,
-      purple: "#827fb9",
+      purple: "#0e0972ff",
       pink: "#aaafeb",
-      darkpurple: "#634880",
+      darkpurple: "#1d0ef1ff",
       white: colors.white,
       lightblack: "#141414",
       bg: "hsla(243, 60%, 95%, 1)",
