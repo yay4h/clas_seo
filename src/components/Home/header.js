@@ -6,21 +6,19 @@ import hero from "../../images/logo_alittihad.png"
 const Header = () => {
   return (
     <Fade duration={2200}>
-      <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
+      <div className="max-w-7xl mx-auto lg:px-6 md:px-3 mt-[200px]">
         <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
             <h1 className="text-black text-4xl font-semibold opacity-70">
-              AL ITTIHAD
+             PONDOK PESANTREN AL ITTIHAD
             </h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Begini Sejarah Pendirian Pondok Pesantren Al Ittihad di Cirumpak
+               Sejarah Singkat Pendirian 
             </h2>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
+              Pondok pesantren Al Ittihad Berawal dari kelompok kecil pengajian dan kajian Al-Qur’an di rumah sederhana, pesantren ini tumbuh perlahan menjadi lembaga yang dikenal luas karena keteguhan niat dan keikhlasan para pendirinya. Nama Al Ittihad, yang berarti persatuan, mencerminkan harapan agar seluruh santri dan masyarakat bersatu dalam ukhuwah Islamiyah, saling menguatkan dalam kebaikan dan ketakwaan.
+Kini, Pondok Pesantren Al Ittihad Cirumpak bukan sekadar lembaga pendidikan, melainkan simbol perjuangan, ketulusan, dan harapan. Dari tempat inilah lahir insan-insan yang siap meneruskan cahaya dakwah dan menjaga warisan keilmuan Islam hingga akhir zaman.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

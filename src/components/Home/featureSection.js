@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
+import HeroImage from "../../images/unnamedd.jpg"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
@@ -13,21 +13,21 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
+            <h3 className="text-white text-2xl">Pembinaan Akhlak</h3>
+            <h4 className="mt-10 text-white  opacity-70 text-xl">Santri beradab dan berakhlak mulia.</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Kedisiplinan & Kemandirian</h3>
+            <h4 className="mt-10 text-white opacity-70 text-xl">Disiplin dan mandiri dalam keseharian.</h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Kualitas Pendidikan</h3>
+            <h4 className="mt-10 text-white opacity-70 text-xl">Ilmu agama dan umum seimbang.</h4>
           </div>
           <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Ketaatan & Keimanan</h3>
+            <h4 className="mt-10 text-white opacity-70 text-xl">Iman dan ketaatan kepada Allah. </h4>
           </div>
         </div>
       </Fade>
@@ -43,15 +43,13 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            {/* <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2> */}
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+              Saatnya Menumbuhkan Semangat Baru dalam Ilmu dan Iman
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Pondok Pesantren Al Ittihad berdiri dengan semangat persatuan dan keikhlasan, menjadi tempat tumbuhnya ilmu, iman, dan akhlak mulia bagi generasi penerus bangsa.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -93,23 +91,26 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
-            <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+          <div className="w-2/6 bg-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+            <span className="text-white font-semibold font-montserrat text-4xl">
+              Nilai dan Identitas Pesantren
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
+                <p className="text-white text-2xl">NILAI UTAMA</p>
+                <p className="text-white opacity-50 text-sm">Keikhlasan & Persatuan
+Menjadi dasar setiap langkah dakwah dan pendidikan....</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
+                <p className="text-white text-2xl">VISI PESANTREN</p>
+                <p className="text-white opacity-50 text-sm">Mencetak Generasi Berakhlak
+Membangun insan berilmu, beriman, dan beramal....</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
-                <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
+                <p className="text-white text-2xl">MOTTO HIDUP</p>
+                <p className="text-white opacity-50 text-sm">
+                  Belajar Sepanjang Hayat
+Menuntut ilmu dengan hati yang tulus dan niat yang lurus.
                 </p>
               </div>
             </div>
@@ -117,19 +118,12 @@ const FeatureSection = () => {
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+              Mulai Menebar Cahaya Ilmu dan Persatuan Bersama Al Ittihad
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Pondok Pesantren Al Ittihad berdiri sebagai wujud cita-cita mulia untuk mencetak generasi berilmu dan berakhlak. Berawal dari semangat persatuan dan keikhlasan para pendiri, pesantren ini tumbuh menjadi tempat menuntut ilmu yang memadukan nilai-nilai agama dan kehidupan modern. Selama bertahun-tahun, Al Ittihad telah menjadi rumah bagi para santri yang ingin memperdalam ilmu Al-Qur’an, hadits, serta ilmu pengetahuan umum dengan landasan iman dan takwa.
+
+Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman tanpa meninggalkan jati diri keislaman. Melalui pendidikan yang seimbang antara spiritual, intelektual, dan moral, pesantren ini berkomitmen melahirkan insan-insan yang siap membawa cahaya Islam ke berbagai penjuru kehidupan. Dengan semangat kebersamaan dan persaudaraan, Al Ittihad akan terus menjadi sumber ilmu, keteladanan, dan inspirasi bagi generasi penerus bangsa.
             </p>
           </div>
         </div>
