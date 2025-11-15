@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/unnamedd.jpg"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
+import Image1 from "../../images/depan.png"
+import Image2 from "../../images/dalam.jpg"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
 
 const FeatureSection = () => {
@@ -123,7 +123,7 @@ Menuntut ilmu dengan hati yang tulus dan niat yang lurus.
             <p className="mt-10 text-white opacity-70">
               Pondok Pesantren Al Ittihad berdiri sebagai wujud cita-cita mulia untuk mencetak generasi berilmu dan berakhlak. Berawal dari semangat persatuan dan keikhlasan para pendiri, pesantren ini tumbuh menjadi tempat menuntut ilmu yang memadukan nilai-nilai agama dan kehidupan modern. Selama bertahun-tahun, Al Ittihad telah menjadi rumah bagi para santri yang ingin memperdalam ilmu Al-Qur’an, hadits, serta ilmu pengetahuan umum dengan landasan iman dan takwa.
 
-Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman tanpa meninggalkan jati diri keislaman. Melalui pendidikan yang seimbang antara spiritual, intelektual, dan moral, pesantren ini berkomitmen melahirkan insan-insan yang siap membawa cahaya Islam ke berbagai penjuru kehidupan. Dengan semangat kebersamaan dan persaudaraan, Al Ittihad akan terus menjadi sumber ilmu, keteladanan, dan inspirasi bagi generasi penerus bangsa.
+Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman tanpa meninggalkan jati diri keislaman. Melalui pendidikan yang seimbang antara spiritual, intelektual, dan moral, pesantren ini berkomitmen melahirkan insan-insan yang siap membawa cahaya Islamm ke berbagai penjuru kehidupan. Dengan semangat kebersamaan dan persaudaraan, Al Ittihad akan terus menjadi sumber ilmu, keteladanan, dan inspirasi bagi generasi penerus bangsa.
             </p>
           </div>
         </div>
@@ -131,41 +131,34 @@ Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman ta
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          PONDOK PESANTREN AL ITTIHAD
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Menjadi Lembaga Pendidikan Islam Unggulan
+
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Pondok Pesantren Al Ittihad berdiri dengan tujuan membentuk generasi yang berilmu, berakhlak, dan berjiwa mandiri.
+Melalui perpaduan antara pendidikan agama dan umum, pesantren ini terus berkomitmen mencetak santri yang siap menghadapi tantangan zaman tanpa meninggalkan nilai-nilai Islam.
+Dengan suasana belajar yang religius dan disiplin, Al Ittihad menjadi tempat tumbuhnya insan beriman, cerdas, dan berkontribusi untuk masyarakat.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          AL ITTIHAD
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Temukan Cahaya Iman dan Ilmu
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Pondok Pesantren Al Ittihad adalah tempat tumbuhnya generasi berakhlak, berilmu, dan berjiwa pemimpin.
+Kami meyakini bahwa pendidikan terbaik lahir dari keseimbangan antara pengetahuan dan ketulusan hati.
+
+Di sini, setiap santri belajar bukan hanya untuk memahami ilmu, tapi juga untuk menghidupkannya dalam amal.
+Dengan semangat persaudaraan dan keikhlasan, kami membimbing menuju masa depan yang penuh berkah dan kebermanfaatan.
+
+Bersama Al Ittihad, tumbuh dalam iman, bersatu dalam ilmu.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -180,7 +173,7 @@ Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman ta
       </div>
 
       <Fade bottom cascade>
-        <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
+        <div className="grid grid-cols-20 mt-20 gap-4 xxs:grid-cols-1 lg:grid-cols-40 px-10">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
             <img alt="Image" src={Image1}></img>
           </div>

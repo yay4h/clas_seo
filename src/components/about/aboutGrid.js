@@ -1,6 +1,11 @@
 import React from "react"
 import AboutTeamCard from "./aboutTeamCard"
 
+// // Import local images
+// import Team1 from "../../images/pesantren.jpg"  // Ganti dngan path yang benar
+// import Team2 from "../../images/ponpes.jpg"
+// import Team3 from "../../images/pondokpesantren.jpg"
+
 const AboutGrid = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 my-20 grid grid-cols-3 gap-16 justify-items-center xxs:grid-cols-1 sm:grid-cols-3">
