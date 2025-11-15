@@ -3,9 +3,9 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/unnamedd.jpg"
-import Image1 from "../../images/depan.png"
-import Image2 from "../../images/dalam.jpg"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import Image1 from "../../images/alitthad1.jpg"
+import Image2 from "../../images/alittihad3.jpg"
+import Image3 from "../../images/alittihad2.jpg"
 
 const FeatureSection = () => {
   return (
@@ -43,7 +43,7 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            {/* <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2> */}
+            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
               Saatnya Menumbuhkan Semangat Baru dalam Ilmu dan Iman
             </h3>
@@ -99,18 +99,18 @@ const FeatureSection = () => {
               <div>
                 <p className="text-white text-2xl">NILAI UTAMA</p>
                 <p className="text-white opacity-50 text-sm">Keikhlasan & Persatuan
-Menjadi dasar setiap langkah dakwah dan pendidikan....</p>
+                  Menjadi dasar setiap langkah dakwah dan pendidikan....</p>
               </div>
               <div className="mt-5">
                 <p className="text-white text-2xl">VISI PESANTREN</p>
                 <p className="text-white opacity-50 text-sm">Mencetak Generasi Berakhlak
-Membangun insan berilmu, beriman, dan beramal....</p>
+                    Membangun insan berilmu, beriman, dan beramal....</p>
               </div>
               <div className="mt-5">
                 <p className="text-white text-2xl">MOTTO HIDUP</p>
                 <p className="text-white opacity-50 text-sm">
                   Belajar Sepanjang Hayat
-Menuntut ilmu dengan hati yang tulus dan niat yang lurus.
+                  Menuntut ilmu dengan hati yang tulus dan niat yang lurus.
                 </p>
               </div>
             </div>
@@ -122,8 +122,7 @@ Menuntut ilmu dengan hati yang tulus dan niat yang lurus.
             </h2>
             <p className="mt-10 text-white opacity-70">
               Pondok Pesantren Al Ittihad berdiri sebagai wujud cita-cita mulia untuk mencetak generasi berilmu dan berakhlak. Berawal dari semangat persatuan dan keikhlasan para pendiri, pesantren ini tumbuh menjadi tempat menuntut ilmu yang memadukan nilai-nilai agama dan kehidupan modern. Selama bertahun-tahun, Al Ittihad telah menjadi rumah bagi para santri yang ingin memperdalam ilmu Al-Qur’an, hadits, serta ilmu pengetahuan umum dengan landasan iman dan takwa.
-
-Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman tanpa meninggalkan jati diri keislaman. Melalui pendidikan yang seimbang antara spiritual, intelektual, dan moral, pesantren ini berkomitmen melahirkan insan-insan yang siap membawa cahaya Islamm ke berbagai penjuru kehidupan. Dengan semangat kebersamaan dan persaudaraan, Al Ittihad akan terus menjadi sumber ilmu, keteladanan, dan inspirasi bagi generasi penerus bangsa.
+              Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman tanpa meninggalkan jati diri keislaman. Melalui pendidikan yang seimbang antara spiritual, intelektual, dan moral, pesantren ini berkomitmen melahirkan insan-insan yang siap membawa cahaya Islamm ke berbagai penjuru kehidupan. Dengan semangat kebersamaan dan persaudaraan, Al Ittihad akan terus menjadi sumber ilmu, keteladanan, dan inspirasi bagi generasi penerus bangsa.
             </p>
           </div>
         </div>
@@ -139,8 +138,8 @@ Kini, Pondok Pesantren Al Ittihad terus beradaptasi dengan perkembangan zaman ta
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Pondok Pesantren Al Ittihad berdiri dengan tujuan membentuk generasi yang berilmu, berakhlak, dan berjiwa mandiri.
-Melalui perpaduan antara pendidikan agama dan umum, pesantren ini terus berkomitmen mencetak santri yang siap menghadapi tantangan zaman tanpa meninggalkan nilai-nilai Islam.
-Dengan suasana belajar yang religius dan disiplin, Al Ittihad menjadi tempat tumbuhnya insan beriman, cerdas, dan berkontribusi untuk masyarakat.
+          Melalui perpaduan antara pendidikan agama dan umum, pesantren ini terus berkomitmen mencetak santri yang siap menghadapi tantangan zaman tanpa meninggalkan nilai-nilai Islam.
+          Dengan suasana belajar yang religius dan disiplin, Al Ittihad menjadi tempat tumbuhnya insan beriman, cerdas, dan berkontribusi untuk masyarakat.
         </p>
       </div>
 
@@ -153,12 +152,10 @@ Dengan suasana belajar yang religius dan disiplin, Al Ittihad menjadi tempat tum
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Pondok Pesantren Al Ittihad adalah tempat tumbuhnya generasi berakhlak, berilmu, dan berjiwa pemimpin.
-Kami meyakini bahwa pendidikan terbaik lahir dari keseimbangan antara pengetahuan dan ketulusan hati.
-
-Di sini, setiap santri belajar bukan hanya untuk memahami ilmu, tapi juga untuk menghidupkannya dalam amal.
-Dengan semangat persaudaraan dan keikhlasan, kami membimbing menuju masa depan yang penuh berkah dan kebermanfaatan.
-
-Bersama Al Ittihad, tumbuh dalam iman, bersatu dalam ilmu.
+          Kami meyakini bahwa pendidikan terbaik lahir dari keseimbangan antara pengetahuan dan ketulusan hati.
+          Di sini, setiap santri belajar bukan hanya untuk memahami ilmu, tapi juga untuk menghidupkannya dalam amal.
+          Dengan semangat persaudaraan dan keikhlasan, kami membimbing menuju masa depan yang penuh berkah dan kebermanfaatan.
+          Bersama Al Ittihad, tumbuh dalam iman, bersatu dalam ilmu.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -173,7 +170,7 @@ Bersama Al Ittihad, tumbuh dalam iman, bersatu dalam ilmu.
       </div>
 
       <Fade bottom cascade>
-        <div className="grid grid-cols-20 mt-20 gap-4 xxs:grid-cols-1 lg:grid-cols-40 px-10">
+        <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
             <img alt="Image" src={Image1}></img>
           </div>
@@ -207,7 +204,7 @@ Bersama Al Ittihad, tumbuh dalam iman, bersatu dalam ilmu.
           </div>
         </div>
       </Fade>
-      {/* 
+      
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
           {" "}
@@ -237,7 +234,7 @@ Bersama Al Ittihad, tumbuh dalam iman, bersatu dalam ilmu.
             </a>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

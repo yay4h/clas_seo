@@ -10,17 +10,14 @@ const FeaturedBlog = () => {
             STAY UP TO DATE
           </h2>
           <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-            Latest Posts
+            AL ITTIHAD
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              Pondok pesantren
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Pondok pesantren merupakan tempat tumbuhnya nilai keilmuan, adab, dan kedisiplinan santri. Di lingkungan ini para santri belajar memahami ilmu agama, memperbaiki akhlak, serta membiasakan diri dengan kegiatan yang penuh manfaat. Suasana yang tenang dan penuh keberkahan menjadi ciri khas pembelajaran di pesantren.
             </p>
             <a
               href="/blog/blog-post"
@@ -47,13 +44,11 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Pondok Pesantren adalah Tempat Menimba Ilmu
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Pondok pesantren merupakan lembaga pendidikan Islam yang membina santri dalam ilmu agama, akhlak, serta kedisiplinan. 
+                Lingkungan yang tenang dan penuh keberkahan menjadi ruang tumbuhnya generasi berilmu dan beradab. Sejak dahulu, pesantren memiliki peran penting dalam mencetak kader umat yang siap mengabdi kepada masyarakat.
               </p>
               <a
                 href="/blog/blog-post-1"
@@ -79,13 +74,11 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Pendidikan Santri yang Terarah dan Terpadu
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Dengan sistem pembelajaran yang teratur, para santri diarahkan untuk memahami ilmu agama secara mendalam, memperbaiki karakter, dan membiasakan diri hidup sederhana. 
+                Tradisi keilmuan yang diwariskan para ulama menjadi landasan kuat bagi pembentukan generasi yang berakhlak mulia dan bermanfaat.
               </p>
               <a
                 href="/blog/blog-post-2"
