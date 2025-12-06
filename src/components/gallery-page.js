@@ -1,8 +1,26 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
-import BackGroud from "../images/holographic-background.webp"
+import HeroImage from "../images/logo_alittihad.png"
+
+// import gambar gallery (kamu bisa ganti sesuai file yang ada)
+import Img1 from "../images/halaman.jpg"
+import Img2 from "../images/hijabrapi.jpg"
+import Img3 from "../images/panggung2.jpg"
+import Img4 from "../images/pecibaris.jpg"
+import Img5 from "../images/makan2.jpg"
+import Img6 from "../images/makan1.jpg"
+
+const galleryImages = [Img1, Img2, Img3, Img4, Img5, Img6]
+
+const labels = [
+  // "Clean Animations",
+  // "Easy to use",
+  // "Responsive",
+  // "Tailwind CSS",
+  // "CMS Ready",
+  // "Fast"
+]
 
 const Gallery = () => {
   return (
@@ -11,20 +29,23 @@ const Gallery = () => {
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
-              GALLERY
+              Al ITTIHAD
             </h1>
-            <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Holo Starter Theme
-            </h1>
+
+            <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl"></h1>
+
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Al Ittihad adalah tempat pengajian untuk masyarakat. Setiap
+              siang setelah Dzuhur ada kegiatan pengajian untuk anak-anak. Pada
+              malam hari, pengajian dilanjutkan untuk anak-anak dan remaja.
+              Selain itu, setiap malam Selasa ada pengajian rutin untuk ibu-ibu
+              dan bapak-bapak, sehingga semua kalangan bisa ikut belajar dan
+              berkumpul dalam suasana yang hangat dan penuh kebersamaan.
             </p>
           </div>
+
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
-            <img src={HeroImage} alt="HeroImage"></img>
+            <img src={HeroImage} alt="HeroImage" />
           </div>
         </div>
       </Fade>
@@ -32,112 +53,27 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto px-8 mt-5">
         <Fade bottom cascade>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
+            {galleryImages.map((img, index) => (
+              <a
+                key={index}
+                href="#"
+                className={`group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 
+                ${index === 1 || index === 2 || index === 5 ? "md:col-span-2 md:h-80" : "md:h-80"}`}
+              >
+                <img
+                  src={img}
+                  loading="lazy"
+                  alt={`gallery-${index}`}
+                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                />
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Clean Animations
-              </span>
-            </a>
-
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Easy to use
-              </span>
-            </a>
-
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Responsive
-              </span>
-            </a>
-
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Tailwind CSS
-              </span>
-            </a>
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                CMS Ready
-              </span>
-            </a>
-
-            <a
-              href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Fast
-              </span>
-            </a>
+                <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
+                  {labels[index]}
+                </span>
+              </a>
+            ))}
           </div>
         </Fade>
       </div>
@@ -146,6 +82,7 @@ const Gallery = () => {
 }
 
 export default Gallery
+
 
 /* 
     <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
@@ -166,5 +103,5 @@ export default Gallery
         <img src="https://source.unsplash.com/DFt3T5r_4FE"/>
         <img src="https://source.unsplash.com/Ebwp2-6BG8E"/>
             </div>
-             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
 */
