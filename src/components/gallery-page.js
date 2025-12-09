@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 import HeroImage from "../images/logo_alittihad.png"
 
 // import gambar gallery (kamu bisa ganti sesuai file yang ada)
-import Img1 from "../images/halaman.jpg"
+import Img1 from "../images/tilawah.jpg"
 import Img2 from "../images/hijabrapi.jpg"
 import Img3 from "../images/panggung2.jpg"
 import Img4 from "../images/pecibaris.jpg"
@@ -35,12 +35,9 @@ const Gallery = () => {
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl"></h1>
 
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Al Ittihad adalah tempat pengajian untuk masyarakat. Setiap
-              siang setelah Dzuhur ada kegiatan pengajian untuk anak-anak. Pada
-              malam hari, pengajian dilanjutkan untuk anak-anak dan remaja.
-              Selain itu, setiap malam Selasa ada pengajian rutin untuk ibu-ibu
-              dan bapak-bapak, sehingga semua kalangan bisa ikut belajar dan
-              berkumpul dalam suasana yang hangat dan penuh kebersamaan.
+              Setiap tahun, Pondok Pesantren Al Ittihad secara konsisten menyelenggarakan Acara Tahfidz Al-Qur’an 
+              sebagai wujud komitmen dalam membina para santri agar mencintai, memahami, dan mengamalkan kalamullah.
+              Kegiatan ini menjadi ajang evaluasi, apresiasi, serta doa bersama demi lahirnya generasi penghafal Qur’an yang berakhlak mulia.
             </p>
           </div>
 

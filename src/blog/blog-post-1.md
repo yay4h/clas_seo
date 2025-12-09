@@ -1,16 +1,13 @@
 ---
 templateKey: blog-post
-title: Lorem Ipsum
-date: 2024-03-30T15:39:18.616Z
-featuredimage: /img/Holographic-Liquid-1.jpg
+title: Acara Haul Pimpinan Pesantren
+date: 2025-07-23T15:39:18.616Z
+featuredimage: /img/haull20255.jpg
 categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Haul Al-Maghfurlah KH. Suhari di Pondok Pesantren Al Ittihad digelar tiap tahun sebagai bentuk penghormatan atas jasa dan keteladanan beliau. Acara diisi dengan tahlil, doa bersama, serta ceramah yang menguatkan kembali semangat santri untuk meneruskan perjuangan beliau.
 ---
 ## Lorem Ipsum 
 

@@ -19,13 +19,13 @@ const Footer = () => {
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
-                  &copy; {new Date().getFullYear()}. All Rights Reserved.
+                  &copy; {new Date().getFullYear()}. Cirumpak
                 </span>
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                    Pondok Pesantren Al Ittihad
                   </a>
 
                   <a
@@ -33,7 +33,7 @@ const Footer = () => {
                     target="_blank"
                     href="https://travislord.xyz"
                   >
-                    By TL
+                  
                   </a>
                   <a
                     href="https://github.com/lilxyzz/holo-theme"

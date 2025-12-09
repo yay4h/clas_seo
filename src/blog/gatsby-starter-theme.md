@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-title: Minimalist Gatsby Starter Theme
-date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+title: Halaman Ponpes
+date: 2025-09-05T18:18:16.118Z
+featuredimage: /img/halaman4.jpg
 categories:
   - Gatsby
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  Pondok Pesantren Al Ittihad berdiri di lingkungan yang luas dan asri, dikelilingi pepohonan rindang dan area belajar yang nyaman. Di tempat inilah para santri menimba ilmu agama, menghafal Al-Qur’an, dan dibina akhlaknya dalam suasana tenang dan penuh kebersamaan. Dengan halaman yang tertata rapi dan udara yang sejuk, pesantren ini menjadi ruang belajar yang menumbuhkan ketenangan, kedisiplinan, dan semangat ibadah.
 ---
 ## Lorem Ipsum 
 

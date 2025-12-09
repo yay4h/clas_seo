@@ -1,16 +1,13 @@
 ---
 templateKey: blog-post
-title: Lorem Ipsum Is Simply Dummy Text
-date: 2024-03-30T15:02:06.069Z
-featuredimage: /img/Holographic-Liquid-3.jpg
+title: Mendengarkan Ceramah Ustadz
+date: 2025-07-23T15:02:06.069Z
+featuredimage: /img/haul1.jpg
 categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Setelah tahlil, acara dilanjutkan dengan ceramah ustadz. Para jamaah menyimak dengan khidmat sambil menikmati camilan yang disajikan, sehingga suasana terasa hangat dan tetap terjaga kekhusyukannya.
 ---
 ## Lorem Ipsum 
 

@@ -17,7 +17,10 @@ const FeaturedBlog = () => {
               Pondok pesantren
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Pondok pesantren merupakan tempat tumbuhnya nilai keilmuan, adab, dan kedisiplinan santri. Di lingkungan ini para santri belajar memahami ilmu agama, memperbaiki akhlak, serta membiasakan diri dengan kegiatan yang penuh manfaat. Suasana yang tenang dan penuh keberkahan menjadi ciri khas pembelajaran di pesantren.
+              Pondok pesantren merupakan tempat tumbuhnya nilai keilmuan, adab, dan kedisiplinan santri. 
+              Di lingkungan ini para santri belajar memahami ilmu agama, 
+              memperbaiki akhlak, serta membiasakan diri dengan kegiatan yang penuh manfaat. 
+              Suasana yang tenang dan penuh keberkahan menjadi ciri khas pembelajaran di pesantren.
             </p>
             <a
               href="/blog/blog-post"
