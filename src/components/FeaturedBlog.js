@@ -26,7 +26,7 @@ const FeaturedBlog = () => {
               href="/blog/blog-post"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
-              Continue Reading
+              Baca Selengkapnya
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"
@@ -57,7 +57,7 @@ const FeaturedBlog = () => {
                 href="/blog/blog-post-1"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Baca Selengkapnya
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -87,7 +87,7 @@ const FeaturedBlog = () => {
                 href="/blog/blog-post-2"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Baca Selengkapnya
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"

@@ -18,12 +18,12 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
+            <h1 className="text-3xl text-white">HUBUNGI KAMI</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+              PONDOK PESANTREN AL ITTIHAD
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
+              Website resmi Pondok Pesantren Al Ittihad sebagai media informasi, pendidikan Islam, dan dakwah Islami.
             </p>
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
@@ -50,10 +50,10 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Phone
+                        Telepon
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="tel:+#">(+62) 858 9240 1837</a>
                       </p>
                     </div>
                   </div>
@@ -112,9 +112,9 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Location
+                        Alamat
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Cirumpak</p>
                     </div>
                   </div>
                 </div>
@@ -140,9 +140,9 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Opening Hours
+                        Jam Pelayanan
                       </p>
-                      <p className="text-neutral-500 mb-2">24/7</p>
+                      <p className="text-neutral-500 mb-2">Senin – Jumat Pukul 08.00 – 16.00 WIB</p>
                     </div>
                   </div>
                 </div>

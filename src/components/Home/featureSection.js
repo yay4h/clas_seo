@@ -58,7 +58,7 @@ const FeatureSection = () => {
                   href="tel:#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
-                  Call Us Now
+                  Kontak
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -66,7 +66,7 @@ const FeatureSection = () => {
                   href="/gallery"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  View Gallery
+                  Galeri
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -163,7 +163,7 @@ const FeatureSection = () => {
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Kirim Pertanyaan
             </a>
           </div>
         </div>
@@ -187,7 +187,7 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Dipublikasikan</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
@@ -206,11 +206,11 @@ const FeatureSection = () => {
       </Fade>
       
       <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
+        {/* <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
           {" "}
           Integrations
-        </h2>
-        <h3 className="text-black mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
+        </h2> */}
+        {/* <h3 className="text-black mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
           Discover, connect, and configure
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
@@ -223,15 +223,15 @@ const FeatureSection = () => {
           the release of Letraset sheets containing Lorem Ipsum passages, and
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
-        </p>
+        </p> */}
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
-            <a
+            {/* <a
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
-            </a>
+              Kirim Pertanyaan
+            </a> */}
           </div>
         </div>
       </div>

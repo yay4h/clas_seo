@@ -13,8 +13,8 @@ const AboutExtra = () => {
           generasi berakhlak mulia,berilmu, dan siap mengabdi kepada umat. 
           Dengan kurikulum terpadu, pembinaan akhlak yang intensif, serta  bimbingan para ustadz dan ustadzah 
           yang berpengalaman, Al Ittihad menjadi tempat tumbuhnya pribadi yang beradab, mandiri, dan berkarakter kuat.
-Lingkungan pesantren yang religius dan kondusif menjadikan setiap santri mampu berkembang secara spiritual, intelektual, dan sosial. 
-Di sini, ilmu tidak hanya dipelajari, tetapi diamalkan; akhlak tidak hanya diajarkan, tetapi dicontohkan.
+          Lingkungan pesantren yang religius dan kondusif menjadikan setiap santri mampu berkembang secara spiritual, intelektual, dan sosial. 
+          Di sini, ilmu tidak hanya dipelajari, tetapi diamalkan; akhlak tidak hanya diajarkan, tetapi dicontohkan.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-start lg:justify-start">
           <div className="rounded-md">
@@ -22,7 +22,7 @@ Di sini, ilmu tidak hanya dipelajari, tetapi diamalkan; akhlak tidak hanya diaja
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
             >
-              CONTACT US
+              HUBUNGI KAMI
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"

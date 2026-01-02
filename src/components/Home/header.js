@@ -18,7 +18,7 @@ const Header = () => {
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Pondok pesantren Al Ittihad Berawal dari kelompok kecil pengajian dan kajian Al-Qur’an di rumah sederhana, pesantren ini tumbuh perlahan menjadi lembaga yang dikenal luas karena keteguhan niat dan keikhlasan para pendirinya. Nama Al Ittihad, yang berarti persatuan, mencerminkan harapan agar seluruh santri dan masyarakat bersatu dalam ukhuwah Islamiyah, saling menguatkan dalam kebaikan dan ketakwaan.
-Kini, Pondok Pesantren Al Ittihad Cirumpak bukan sekadar lembaga pendidikan, melainkan simbol perjuangan, ketulusan, dan harapan. Dari tempat inilah lahir insan-insan yang siap meneruskan cahaya dakwah dan menjaga warisan keilmuan Islam hingga akhir zaman.
+              Kini, Pondok Pesantren Al Ittihad Cirumpak bukan sekadar lembaga pendidikan, melainkan simbol perjuangan, ketulusan, dan harapan. Dari tempat inilah lahir insan-insan yang siap meneruskan cahaya dakwah dan menjaga warisan keilmuan Islam hingga akhir zaman.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -27,7 +27,7 @@ Kini, Pondok Pesantren Al Ittihad Cirumpak bukan sekadar lembaga pendidikan, mel
                   href="/contact"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  Contact Us
+                  Kontak
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -50,7 +50,7 @@ Kini, Pondok Pesantren Al Ittihad Cirumpak bukan sekadar lembaga pendidikan, mel
                   href="/about"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  Get To Know Us
+                  Sekilas Tentang Kami
                 </a>
               </div>
             </div>
