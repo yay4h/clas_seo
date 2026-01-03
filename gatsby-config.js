@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `AL ITTIHAD`,
+  title: "Al-Ittihad",
     description: `Al-Ittihad berarti persatuan dan kebersamaan dalam iman, ilmu, dan tujuan.`,
     siteUrl: "https://alittihad.web.id/",
     author: `Travis Lord <hi@travislord.xyz>`,
@@ -79,13 +79,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
-        short_name: `Holo`,
+        name: `Pondok Pesantren`,
+        short_name: `Pondok`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
         display: `standalone`,
-        icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
+        icon: `src/images/gatssby.icon.png`, // This path is relative to the root of the site.
       },
     },
     {

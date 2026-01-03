@@ -9,7 +9,24 @@ import image from "../images/holographic-background.webp"
 
 const Contact = () => {
   return (
+    
     <Layout>
+      <a
+  href="https://wa.me/6285892401837?text=Assalamu%27alaikum%20saya%20ingin%20bertanya%20tentang%20Pondok%20Pesantren%20Al%20Ittihad"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    className="h-6 w-6"
+  >
+    <path d="M20.52 3.48A11.82 11.82 0 0012.01 0C5.38 0 0 5.38 0 12c0 2.11.55 4.18 1.6 6.01L0 24l6.15-1.61A11.94 11.94 0 0012 24c6.63 0 12-5.38 12-12 0-3.2-1.25-6.2-3.48-8.52z" />
+  </svg>
+</a>
+
       <Seo
         title="Contact - Holo"
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
@@ -84,7 +101,8 @@ const Contact = () => {
                       </p>
                       <p className="text-neutral-500 mb-2">
                         <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                          ponpes
+                          alittihad@gmail.com
                         </a>
                       </p>
                     </div>
