@@ -1,26 +1,29 @@
 import React from "react"
-import AboutPage from "../components/about/aboutPage"
-
-import AboutGrid from "../components/about/aboutGrid"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import Layout from "../components/layout"
-import AboutExtra from "../components/about/aboutExtra"
 import AboutHeader from "../components/about/aboutHeader"
+import AboutPage from "../components/about/aboutPage"
+import AboutGrid from "../components/about/aboutGrid"
+import AboutExtra from "../components/about/aboutExtra"
 
 const About = () => {
   return (
     <Layout>
-      <Seo
-        title="About - Holo"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
-      ></Seo>
-      <AboutHeader></AboutHeader>
-      <AboutPage></AboutPage>
-      <AboutGrid></AboutGrid>
-      <AboutExtra></AboutExtra>
+      <AboutHeader />
+      <AboutPage />
+      <AboutGrid />
+      <AboutExtra />
     </Layout>
   )
 }
 
 export default About
+
+// ⬇️ INI SATU-SATUNYA TEMPAT SEO DI GATSBY v5
+export const Head = () => (
+  <Seo
+    title="Pondok Pesantren"
+    description="Pondok Pesantren Al Ittihad sebagai lembaga pendidikan Islam yang membina generasi berilmu dan berakhlak mulia."
+  />
+)

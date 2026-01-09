@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer bg-gradient-to-r from-pink to-purple p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
+              <img className="max-h-28 max-w-xs" src={logo} alt="Pondok pesantren Al-ittihad"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
                 Pondok Pesantren<br></br> AL ITTIHAD
                 
@@ -41,7 +41,7 @@ const Footer = () => {
                   >
                     <img
                       className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
+                      src="/img/gatssby.icon.png"
                       alt="GitHub"
                     ></img>
                   </a>

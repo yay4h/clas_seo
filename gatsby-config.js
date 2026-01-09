@@ -1,9 +1,17 @@
 module.exports = {
   siteMetadata: {
-  title: "Al-Ittihad",
+  title: "Cirumpak-Kec.keronjo",
     description: `Al-Ittihad berarti persatuan dan kebersamaan dalam iman, ilmu, dan tujuan.`,
     siteUrl: "https://alittihad.web.id/",
     author: `Travis Lord <hi@travislord.xyz>`,
+    keywords: [
+    "pondok pesantren",
+    "pondok pesantren al ittihad",
+    "pesantren cirumpak",
+    "pesantren kecamatan keronjo",
+    "pendidikan islam",
+    "pesantren indonesia"
+  ],
   },
   plugins: [
     `gatsby-plugin-image`,
