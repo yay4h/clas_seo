@@ -10,7 +10,7 @@ module.exports = {
     "pesantren cirumpak",
     "pesantren kecamatan keronjo",
     "pendidikan islam",
-    "pesantren indonesia"
+    "pesantren indonesiaa"
   ],
   },
   plugins: [
