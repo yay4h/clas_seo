@@ -28,8 +28,8 @@ const Contact = () => {
 </a>
 
       <Seo
-        title="Contact - Holo"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        title="Informasi & pendaftaran Pondok Pesantren Al-Ittihad"
+        description="Hubungi Pondok Pesantren Al-Ittihad Cirumpak untuk informasi pendaftaran santri, kegiatan pesantren, jadwal, dan kerja sama."
       ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
@@ -231,7 +231,7 @@ const Contact = () => {
             </form>
           </div>
         </Fade>
-        <Fade bottom cascade>
+        {/* <Fade bottom cascade>
           <div className="w-1/4 overflow-hidden rounded-xl m-5 xxs:hidden sm:block">
             <img
               className="object-cover h-full w-full"
@@ -239,7 +239,7 @@ const Contact = () => {
               alt="HeroImage"
             ></img>
           </div>
-        </Fade>
+        </Fade> */}
       </div>
     </Layout>
   )

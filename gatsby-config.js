@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-  title: "Cirumpak-Kec.keronjo",
-    description: `Al-Ittihad berarti persatuan dan kebersamaan dalam iman, ilmu, dan tujuan.`,
+  title: "Profil umum & keunggulan pesantren",
+    description: `Pondok Pesantren Al-Ittihad Cirumpak merupakan lembaga pendidikan Islam yang membina generasi beriman, berilmu, dan berakhlak mulia melalui pendidikan terpadu.
+`,
     siteUrl: "https://alittihad.web.id/",
     author: `Travis Lord <hi@travislord.xyz>`,
     keywords: [

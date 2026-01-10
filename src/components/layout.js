@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
         className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg z-[9999]"
       >
         <img
-          src="/icons_wa.png"
+          src="/wa-icon.png"
           alt="Chat WhatsApp"
           className="h-7 w-7"
         />
